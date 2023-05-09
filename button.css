@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    font-family: 'Ubuntu', sans-serif; 
+}
+
+
+.btn{
+    display: inline-block;
+    box-sizing: border-box;
+    height: 40px;
+    padding: 0 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    line-height: 36px;
+    font-size: 12px;
+}
+
+.btn-primary{
+    background-color: #364f6b;
+    border: 2px solid #364f6b;
+    color: #fff;
+    
+}
+.btn-secondary{
+    background-color: #3f3b3b;
+    border: 2px solid #3f3b3b;
+    color: #fff;
+}
+.btn-danger{
+    background-color: #ff304f;
+    border: 2px solid #ff304f;
+    color: #fff;
+}
+
+.btn-pill{
+    border-radius: 20px;
+}
+.btn-outline-primary{
+    background-color: transparent;
+    border: 2px solid #364f6b;
+    color: #364f6b;
+}
