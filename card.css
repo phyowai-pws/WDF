@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&family=Kanit:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 3000px;
+}
+.m-20{
+    margin: 20px;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+.card{
+    width: 300px;
+    border:1px solid black;
+    border-radius: 15px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.card-body{
+    padding: 20px;
+
+}
+
+.card-img{
+    width: 100%;
+    display: block;
+}
+.card-icon{
+    margin-bottom: 20px;
+}
+
+.img-top{
+    border-radius: 15px 15px 0 0;
+}
+.img-bottom{
+    border-radius: 0 0 15px 15px ;
+}
+
+
+.card-title{
+    font-family: 'Kanit', sans-serif;
+    margin-bottom: 10px;
+    
+}
+
+.card-text{
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 25px;
+}   
+
+.card
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.card-btn{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    height: 50px;
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 0 15px;
+    display: inline-block;
+    line-height: 50px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.card-btn-link{
+    background-color: transparent;
+    color: black;
+    border: 1px solid transparent;
+    height: 50px;
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 0 15px;
+    display: inline-block;
+    line-height: 50px;
+    font-family: 'Kanit', sans-serif;
+
+}
+.overline{
+    margin: auto;
+    margin-bottom: -25px;
+    display: block;
+    width: 120px;
+    text-align: center;
+
+}
+.card-heart{
+    float: right;
+    margin-top: -25px;
+    position: relative;
+    margin-right: 20px;
+}
