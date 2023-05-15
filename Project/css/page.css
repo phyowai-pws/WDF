@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&family=Kanit:wght@500&display=swap');
+
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    border-bottom: 2px solid black;
+    /* margin: 10px; */
+    /* padding: 10px; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+
+
+
+}
+
+.brand{
+   text-decoration: none;
+   font-size: 30px;
+   color: black;
+   font-weight: bold;
+
+}
+.nav-toggle{
+    border: 2px solid black;
+    font-size: 25px;
+    padding: 10px 20px;
+    align-self: stretch;
+    background-color: transparent;
+    display: none;
+    border: none;
+}   
+
+nav{
+    /* border: 2px solid black; */
+    /* padding: 10px; */
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+
+
+ 
+}
+.nav-link{
+    /* border: 2px solid black; */
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+    color: black;
+    padding: 10px 0;
+}
+
+.nav-link:hover,.nav-link.active{
+    background-color: black;
+    color: white;
+}
+
+.form{
+    width: 300px;
+    border: 2px solid black;
+    margin: 100px auto;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.form_group{
+    /* border: 2px solid black; */
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.form_label{
+    margin-bottom: 10px;
+}
+
+.form_input{
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.form_input:focus-visible{
+    outline: none;
+}
+
+.text_area{
+    border: 2px solid black;
+}
+.text_area:focus-visible{
+    outline: none;
+}
+
+.summit{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.confirm{
+   display: flex;
+   align-items: center;
+   gap: 5px;
+}
+
+.check_btn{
+    accent-color: black;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+}
+
+@media screen and (max-width:780px) {
+    nav{
+        display: none;
+    }
+    .nav-toggle{
+        display: block;
+    }
+    
+    nav.open{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        
+    }
+    .nav-link{
+        width: auto;
+    }
+    
+} 
