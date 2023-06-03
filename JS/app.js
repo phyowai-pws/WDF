@@ -5,7 +5,11 @@
 
 
 // function inchToFeet(input) {
-//     return input / 12 + " ft";
+//     return showResult(input / 12 + " ft");
+// } 
+
+// function showResult(text) {
+//     return "this result is "+ text;
 // }
 
 // console.log(inchToFeet(15));
@@ -63,69 +67,106 @@
 
 //problem 1
 
-let name = "mg mg";
-let age = 15;
-let money = 200;
+// let name = "mg mg";
+// let age = 15;
+// let money = 200;
 
-money -= 50;
-// console.log(money);
+// money -= 50;
+// // console.log(money);
 
-let mgmgBag = ["mm","eng","bio",false];
+// let mgmgBag = ["mm","eng","bio",false];
 
-let canMgMgSmoke = false;
-let canMgMgFriendSmoke = true;
+// let canMgMgSmoke = false;
+// let canMgMgFriendSmoke = true;
 
-let mgmgObj = {
-    name:"mg mg ",
-    age,
-    canMgMgSmoke : false,
-    money,
-    bag: mgmgBag,
-}
-let kyawkyawObj = {
-    name:"kyaw kyaw",
-    age : 17,
-    cankyawkyawSmoke : true,
-    money : 500,
-    bag: ["mm"],
-}
-let myamyaObj = {
-    name:"mya mya ",
-    age : 18,
-    canmyamyaSmoke : true,
-    money : 1000,
-    bag: ["mm","eng","bio"],
-}
+// const mgmgObj = {
+//     name:"mg mg ",
+//     age,
+//     canMgMgSmoke : false,
+//     money,
+//     bag: mgmgBag,
+// }
+// const kyawkyawObj = {
+//     name:"kyaw kyaw",
+//     age : 17,
+//     cankyawkyawSmoke : true,
+//     money : 500,
+//     bag: ["mm"],
+// }
+// const myamyaObj = {
+//     name:"mya mya ",
+//     age : 18,
+//     canmyamyaSmoke : true,
+//     money : 1000,
+//     bag: ["mm","eng","bio"],
+// }
 
-// console.log(mgmgObj);
-// console.log(kyawkyawObj);
-// console.log(myamyaObj);
+// // console.log(mgmgObj);
+// // console.log(kyawkyawObj);
+// // console.log(myamyaObj);
 
-let students = [
-    {
-        name:"mg mg ",
-        age,
-        canMgMgSmoke : false,
-        money,
-        bag: mgmgBag,
-    },
-    {
-        name:"kyaw kyaw",
-        age : 17,
-        cankyawkyawSmoke : true,
-        money : 500,
-        bag: ["mm"],
-    },
-    {
-        name:"mya mya ",
-        age : 18,
-        canmyamyaSmoke : true,
-        money : 1000,
-        bag: ["mm","eng","bio"],
-    }
-];
+// const students = [
+//     {
+//         name:"mg mg ",
+//         age,
+//         canMgMgSmoke : false,
+//         money,
+//         bag: mgmgBag,
+//     },
+//     {
+//         name:"kyaw kyaw",
+//         age : 17,
+//         cankyawkyawSmoke : true,
+//         money : 500,
+//         bag: ["mm"],
+//     },
+//     {
+//         name:"mya mya ",
+//         age : 18,
+//         canmyamyaSmoke : true,
+//         money : 1000,
+//         bag: ["mm","eng","bio"],
+//     }
+// ];
 
-console.log(students);
-console.log(students[0].name);
-console.log(students[2].bag[2]);
+// console.log(students);
+// console.log(students[0].name);
+// console.log(students[2].bag[2]);
+
+let num = 5;
+
+// num = num +1;
+// num = num +1;
+// num = num +1;
+
+// num +=1;
+// num +=1;
+// num +=1;
+
+// ++num;
+// ++num;
+// ++num;
+
+// console.log(++num);
+// console.log(num++);
+// console.log(num);
+
+// let x =5;
+//  console.log(x ? true : false);
+
+// let haveUfinishDinner = false;
+
+// console.log(haveUfinishDinner ? "yes" : "no");
+
+// const run = function (text = "aaa") {
+//     return "this is run " + text;
+// }
+//  console.log(run("bbb"));
+
+// (function (){
+//     let x = 5;
+//     let y = 10;
+//     console.log(x+y);
+//     return x + y;
+// })()
 

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form class="form" action="">
+        <fieldset class="form-div">
+            <legend class="form-title">Regeister Form</legend>
+            <div class="input-div">
+                <label class="input-label" for="yourname">Your Name</label>
+                <input class="input-box" type="text" name="yourname" id="yourname" placeholder="eg.aung aung">
+            </div>
+            <div class="input-div">
+                <label class="input-label" for="youremail">Your Email</label>
+                <input class="input-box" type="email" name="youremail" id="youremail" placeholder="eg.aungaung@gmail.com">
+            </div>
+            <div class="input-div">
+                <label class="input-label" for="password">Password</label>
+                <input class="input-box" type="password" name="password" id="password" minlength="8">
+            </div>
+            <div class="input-div">
+                <label class="input-label" for="role">Select Your Role</label>
+                <select class="select-role" name="role  " id="role">
+                    <option value="fontend developer">Fontend Developer</option>
+                    <option value="backend developer">Backend Developer</option>
+                    <option value=" ui designer">UI Designer</option>
+                </select>
+            </div>
+            <div class="input-div">
+                <label class="input-label" for="skill">Select Skill</label>
+                <div class="form-check">
+                    <input class="check-input" type="checkbox" name="skill" id="html" value="html">
+                    <label for="html">HTML</label>
+                </div>
+                <div class="form-check">
+                    <input class="check-input" type="checkbox" name="skill" id="css" value="html">
+                    <label for="css">CSS</label>
+                </div>
+                <div class="form-check">
+                    <input class="check-input" type="checkbox" name="skill" id="js" value="html">
+                    <label for="js">JS</label>
+                </div>
+            </div>
+            <div class="input-div">
+                <label class="input-label" for="address">Address</label>
+                <textarea class="input-text" name="address" id="address" cols="10" rows="5"> </textarea>
+            </div>
+            
+            <button class="btn">Regeister</button>
+        </fieldset>
+    </form>
+</body>
+</html>

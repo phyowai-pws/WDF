@@ -1,0 +1,42 @@
+
+
+
+*{
+    padding: 0;
+    /* margin: 0; */
+    box-sizing: border-box;
+}
+
+.list{
+    list-style: none;
+    border: 2px solid black;
+    padding: 10px;
+    
+}
+
+.list-item{
+    border: 2px solid black;
+    display: inline-block;
+    padding: 10px 15px;
+
+}
+
+@media  screen and (max-width:480px) {
+    .list{
+        display: none;
+    }
+
+    .list.active{
+        display: block;
+    }
+
+    .list-item{
+        display: block;
+        margin-bottom: 5px;
+    }
+    
+}
+
+.list-item:last-child{
+    margin-bottom: 0;
+}
